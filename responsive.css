@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    header{
+        padding: 0px;
+    }
     .nav-container{
         flex-direction: column;
         /* padding-bottom: 20px; */
@@ -14,5 +17,5 @@
 
 
 
-    
+
 }

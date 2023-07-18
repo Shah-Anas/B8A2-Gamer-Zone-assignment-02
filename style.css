@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap');
-
+*{
+    font-family: 'Work Sans', sans-serif;
+}
 *{
     box-sizing: border-box
 }
 
 
-
+header{
+    padding: 20px 240px;
+}
 .nav-container{
     /* border: 1px solid #FF42A5; */
     height: 50px;
