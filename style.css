@@ -13,7 +13,7 @@ header{
     padding: 20px 240px;
 }
 .nav-container{
-    /* border: 1px solid #FF42A5; */
+    padding-top: 30px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -23,10 +23,6 @@ header{
     display: flex;
     align-items: center;
     width: 50%;
-    /* border: 1px solid green; */
-    /* object-fit: cover; */
-    /* margin-right: 20px; */
-    
 }
 
 .nav-logo img{
@@ -36,12 +32,12 @@ header{
     color: #FF42A5;
 }
 .nav-logo p{
-    font-size: 45px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
 .nav-items-container{
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     width: 50%;
     display: flex;
@@ -69,10 +65,111 @@ header{
 
 
 
+
+
+
+
+
+
+
+
 .banner1{
     background-color: rgb(248, 248, 248);
-    height: 700px;
+    height: 74vh;
+    width: 100%;
     background-image: url(./asset/images/Group\ 14.png);
     background-repeat: no-repeat;
+
+}
+.banner1-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 240px;
+}
+.banner1-items p{
+    padding: 5px 0px;
+}
+/* .banner1-title{
+    width: 50%;
+} */
+.banner1-items img{
+    width: 100%;
+}
+.banner1-title1{
+    font-size: 3rem;
+}
+.banner1-title2{
+    font-size: 6rem;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #9d5be0, #dd50bd);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
+
+.fa-regular{
+    padding-right: 10px;
+
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.fa-solid2>i{
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.banner1-btn1{
+    background-color: #fd44a3;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.banner1-btn2{
+    background-color: #5cc7f4;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+
+
+.banner2{
+
+    background-color: #fff9fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 240px;
+}
+
+
+
+.banner2-title{
+    text-align: right;
+}
+.banner2-title p{
+    padding: 10px 0px;
+}
+.banner2-title h4{
+    font-size: 2em;
+}
+.banner2-title1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #9d5be0, #dd50bd);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner2-btn{
+    background-color: #fd44a3;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    cursor: pointer;
+}
